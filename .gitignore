@@ -3,3 +3,10 @@
 
 # Package Files
 node_modules/
+
+# Hugo https://github.com/gohugoio/hugo/blob/master/.gitignore
+*.test
+imports.*
+dist/
+public/
+.DS_Store
