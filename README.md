@@ -76,10 +76,6 @@ The variables below give you the ability to change the gradient colors of the bl
 --bttm-left-blur-2: #0095cc;
 ```
 
-## Remove Styling
-
-If you decide that our styling is not for you, all you'll need to do is remove the [demo-styling.css](https://github.com/netlify-templates/hugo-quickstart/blob/main/themes/mansdelaterra/static/css/demo-styling.css) file.
-
 ## Hugo + Netlify Resources
 
 Here are some resources to help you on your Hugo + Netlify coding fun!
