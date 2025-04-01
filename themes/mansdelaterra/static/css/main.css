@@ -1,24 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-
-:root {
-  --main-family: "Chau Philomene One", sans-serif;
-  --color-bg: linear-gradient(180deg, #ffffff 0%, #aec6dc 100%);
-
-  /* Controls the blob blur gradient colors within the main tag's svg */
-  --top-right-blur-1: #2ebc92;
-  --top-right-blur-2: #ecbb50;
-  --bttm-left-blur-1: #ff3e89;
-  --bttm-left-blur-2: #0095cc;
-}
+@import "colors.css";
+@import "typography.css";
+@import "header.css";
 
 html {
-  background: var(--color-bg);
+  background: var(--color-background);
   font-family: var(--main-family);
   min-height: 100%;
 }
 
 body {
   margin: 0;
+  color: var(--color-text);
 }
 
 #background {
@@ -29,20 +21,21 @@ body {
 }
 
 #content {
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
 }
 
-.header {
-  text-align: center;
+.cartel-inauguracion {
+  max-height: 400px;
+  height: 100%;
+  width: auto;
 }
 
-.header h1 {
-  padding-top: 5%;
-  margin: 0;
-  font-size: calc(max(5vw, 32px));
+.header {
+  text-align: center;
 }
 
 .header .logo img {
@@ -50,15 +43,15 @@ body {
   width: 100%;
 }
 
-.header h2 {
-  line-height: 34px;
-  width: 50%;
-  margin: 0 auto;
-  padding-bottom: 5%;
-  font-weight: 500;
-}
-
 @media only screen and (max-width: 450px) {
+  .header-content {
+    padding: 0 1rem;
+  }
+
+  .header-logo {
+    height: 40px;
+  }
+
   .header h2 {
     width: 90%;
     padding: 5%;
@@ -80,27 +73,25 @@ body {
 .bttn.primary {
   display: inline-block;
   width: max-content;
-  background: #21a69a;
+  background: var(--color-primary);
   border: none;
-  color: white;
-  box-shadow: -3px 3px 5px rgb(35 33 33 / 23%);
+  color: var(--color-light);
+  box-shadow: var(--shadow-sm);
 }
 
 .bttn.primary:hover {
-  background: #21a69a;
-  box-shadow: inset 3px 4px 10px rgb(35 33 33 / 40%);
-  /* -webkit-box-shadow: inset 3px 4px 10px rgb(35 33 33 / 40%); */
+  box-shadow: var(--shadow-inset);
 }
 
 .bttn.secondary {
   background: transparent;
-  border: #093c4f 2px solid;
-  color: #0d1d24;
+  border: var(--color-dark) 2px solid;
+  color: var(--color-text);
 }
 
 .bttn.secondary:hover {
-  background: #05171f;
-  color: white;
+  background: var(--color-dark);
+  color: var(--color-light);
 }
 
 .resource-list {
@@ -132,7 +123,6 @@ body {
 /* Header styles */
 .site-header {
   width: 100%;
-  background: rgba(255, 255, 255, 0.9);
   padding: 1rem 0;
 }
 
@@ -161,26 +151,16 @@ body {
 
 .lang-item {
   text-decoration: none;
-  color: #093c4f;
+  color: var(--color-dark);
   padding: 0.5rem;
-  font-weight: bold;
+  font-weight: var(--font-weight-bold);
 }
 
 .lang-item:hover {
-  color: #21a69a;
+  color: var(--color-primary);
 }
 
 .lang-item.active {
-  color: #21a69a;
+  color: var(--color-primary);
   cursor: default;
-}
-
-@media only screen and (max-width: 450px) {
-  .header-content {
-    padding: 0 1rem;
-  }
-
-  .header-logo {
-    height: 40px;
-  }
 }

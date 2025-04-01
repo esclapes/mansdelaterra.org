@@ -1,0 +1,22 @@
+:root {
+  /* Primary colors from the poster */
+  --color-primary: #21a69a;
+  --color-secondary: #d62839;
+  --color-accent: #f7b538;
+
+  /* Supporting colors */
+  --color-logo: #2f221a;
+  --color-dark: #093c4f;
+  --color-light: #ffffff;
+  --color-background: #d8d6c9;
+
+  /* Functional colors */
+  --color-text: var(--color-dark);
+  --color-text-light: var(--color-light);
+  --color-link: var(--color-primary);
+  --color-link-hover: var(--color-secondary);
+
+  /* Shadows */
+  --shadow-sm: -3px 3px 5px rgba(35, 33, 33, 0.23);
+  --shadow-inset: inset 3px 4px 10px rgba(35, 33, 33, 0.4);
+}
