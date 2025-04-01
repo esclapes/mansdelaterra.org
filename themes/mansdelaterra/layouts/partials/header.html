@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="header-content">
+    <div class="logo-wrapper">
+      <a href="{{ .Site.Home.RelPermalink }}">
+        <img
+          src="/images/logo.webp"
+          alt="Mans de la Terra Logo"
+          class="header-logo"
+        />
+      </a>
+    </div>
+    <div class="language-selector">
+      {{ $currentLang := .Site.Language.Lang }} {{ range .Site.Languages }} {{
+      if eq . $currentLang }}
+      <span class="lang-item active">{{ upper . }}</span>
+      {{ else }}
+      <a href="{{ relLangURL . }}" class="lang-item">{{ upper . }}</a>
+      {{ end }} {{ end }}
+    </div>
+  </div>
+</header>
