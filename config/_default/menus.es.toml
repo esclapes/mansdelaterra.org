@@ -1,0 +1,24 @@
+############# Spanish navigation ##############
+
+# main menu
+[[main]]
+name = "Mercado"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Cómo llegar"
+url = "/directions"
+weight = 2
+
+
+# footer menu
+[[footer]]
+name = "Quienes somos"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Política de privacidad"
+url = "/privacy"
+weight = 2

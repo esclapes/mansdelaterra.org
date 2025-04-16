@@ -1,0 +1,23 @@
+############# Catalan navigation ##############
+
+# main menu
+[[main]]
+name = "Mercat"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Com arribar"
+url = "/directions"
+weight = 2
+
+# footer menu
+[[footer]]
+name = "Qui som"
+url = "/qui-som"
+weight = 1
+
+[[footer]]
+name = "Política de privacitat"
+url = "/privacy"
+weight = 2
