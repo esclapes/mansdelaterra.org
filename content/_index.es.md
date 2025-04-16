@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "[ES] The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  title: "Inauguración del mercado: <br/> 3 de mayo de 9:00 a 14:00"
+  content: "Ven a la primera edición de este nuevo mercado semanal en Orba. Solo productores locales. Alimentación, gastronomía, artesanía y bienestar. Música en directo a las 12:00."
   image: "/images/cartel-inauguracion-es.png"
   button:
     enable: false
