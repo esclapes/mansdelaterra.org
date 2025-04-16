@@ -2,27 +2,22 @@
 
 # main menu
 [[main]]
-name = "Home"
+name = "Market"
 url = "/"
 weight = 1
 
 [[main]]
 name = "How to get here"
-url = "/how-to-get-here"
+url = "/directions"
 weight = 2
 
 # footer menu
 [[footer]]
-name = "About"
+name = "Who we are"
 url = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "/elements"
-weight = 2
-
-[[footer]]
 name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 3
+url = "/privacy"
+weight = 2
