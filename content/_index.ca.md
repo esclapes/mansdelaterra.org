@@ -5,9 +5,9 @@ banner:
   content: "Vine a la primera edició d'aquest nou mercat setmanal a Orba. Només productors locals. Alimentació, gastronomia, artesania i benestar. Música en directe a les 12:00."
   image: "/images/cartel-inauguracion-ca.png"
   button:
-    enable: false
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    enable: true
+    label: "Com arribar"
+    link: "/directions"
 
 # Features
 features:

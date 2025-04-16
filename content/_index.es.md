@@ -5,9 +5,9 @@ banner:
   content: "Ven a la primera edición de este nuevo mercado semanal en Orba. Solo productores locales. Alimentación, gastronomía, artesanía y bienestar. Música en directo a las 12:00."
   image: "/images/cartel-inauguracion-es.png"
   button:
-    enable: false
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    enable: true
+    label: "Cómo llegar"
+    link: "/directions"
 # Features
 # features:
 #   - title: "What's Included in Hugoplate"

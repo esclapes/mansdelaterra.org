@@ -14,7 +14,7 @@
             {{ with .button }}
               {{ if .enable }}
                 <a
-                  class="btn btn-primary"
+                  class="btn btn-secondary lg:hidden"
                   href="{{ .link | relURL }}"
                   {{ if strings.HasPrefix .link `http` }}
                     target="_blank" rel="noopener"
