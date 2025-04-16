@@ -1,0 +1,16 @@
+################ English language ##################
+[ca]
+languageCode = 'ca'
+languageName = 'Ca'
+title = 'Mercat de Productors a Orba - Mans de la Terra'
+weight = 1
+[es]
+languageCode = 'es'
+languageName = 'Es'
+title = 'Mercado de Productores en Orba - Mans de la Terra'
+weight = 2
+[en]
+languageCode = 'en-US'
+languageName = 'En'
+title = 'Local Producers Market in Orba - Mans de la Terra'
+weight = 3

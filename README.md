@@ -1,129 +1,237 @@
-[![hugo](https://user-images.githubusercontent.com/43764894/223559747-e9d7f19d-91bf-46a9-a0cb-8d6a40d3cfa3.png)](https://ntl.fyi/3P9w1mr)
+<h1 align="center">Hugo + Tailwind CSS Starter and Boilerplate</h1>
 
-# Hugo Quickstart Template
+<p align="center">Hugoplate is a free starter template built with Hugo, and Tailwind CSS v4.0, providing everything you need to jumpstart your Hugo project and save valuable time.</p>
 
-This is a bare-bones Hugo project that has everything you need to quickly deploy it to [Netlify](https://netlify.com).
+<p align="center">Made with ♥ by <a href="https://zeon.studio/"> Zeon Studio</a></p>
+<p align=center> If you find this project useful, please give it a ⭐ to show your support.</p>
 
-Hate reading, here's a video: https://youtu.be/t-tsRxxYdpk
+<h2 align="center"> <a target="_blank" href="https://zeon.studio/preview?project=hugoplate" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-hugoplate-netlify-app/6lyxjw6t4r?form_factor=desktop">Page Speed (95+)🚀</a>
+</h2>
 
-Love reading, here's blog post: https://www.netlify.com/blog/deploy-your-hugo-app-quick/
+<p align="center">
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.126.0" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.126.0&color=f00&logo=hugo" />
+  </a>
 
-## Table of Contents:
+  <a href="https://github.com/zeon-studio/hugoplate/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/zeon-studio/hugoplate" alt="license">
+  </a>
 
-- [Quick Setup + Deploy Option](#quick-setup--deploy-option)
-- [Regular Setup](#regular-setup)
-  - [Cloning + Install Packages](#1-cloning--install-packages)
-  - [Deploying](#2-deploying)
-- [Styling](#styling)
-  - [Notes on Styling](#notes-on-styling)
-  - [Remove Styling](#remove-styling)
-- [Hugo + Netlify Resources](#hugo--netlify-resources)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-  - [Removing Cypress](#removing-cypress)
-- [Want to learn more?](#want-to-learn-more)
+  <a href="https://github.com/zeon-studio/hugoplate">
+    <img src="https://img.shields.io/github/languages/code-size/zeon-studio/hugoplate" alt="code size">
+  </a>
 
-## Quick Setup + Deploy Option
+  <a href="https://github.com/zeon-studio/hugoplate/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/zeon-studio/hugoplate" alt="contributors">
+  </a>
+</p>
 
-Click this button and it will help you create a new repo, create a new Netlify project, and deploy!
+## 🎁 What's Included
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/hugo-quickstart)
+We have included almost everything you need to start your Hugo project. Let's see what's included in this template:
 
-## Regular Setup
+### 📌 Key Features
 
-### 1. Cloning + Running Locally
+- 👥 Multi-Authors
+- 🎯 Similar Posts Suggestion
+- 🔍 Search Functionality
+- 🌑 Dark Mode
+- 🏷️ Tags & Categories
+- 🔗 Netlify setting pre-configured
+- 📞 Support contact form
+- 📱 Fully responsive
+- 📝 Write and update content in Markdown
+- 💬 Disqus Comment
+- 🔳 Syntax Highlighting
 
-- Clone this repo with one of these options:
+### 📄 15+ Pre-designed Pages
 
-  - Click the 'Use this template' button at the top of the page
-  - Or via the command line `git clone https://github.com/netlify-templates/hugo-quickstart`
+- 🏠 Homepage
+- 👤 About
+- 📞 Contact
+- 👥 Authors
+- 👤 Author Single
+- 📝 Blog
+- 📝 Blog Single
+- 🚫 Custom 404
+- 💡 Elements
+- 📄 Privacy Policy
+- 🏷️ Tags
+- 🏷️ Tag Single
+- 🗂️ Categories
+- 🗂️ Category Single
+- 🔍 Search
 
-- Start the Hugo sever & check it out:
+### 📦 Tech Stack
 
-  - `hugo server -D`
-  - go to [http://localhost:1313/](http://localhost:1313/)
-
-> Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s by running the `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/).
-
-### 2. Deploying
-
-- Install the Netlify CLI globally `npm install netlify-cli -g`
-- Run `hugo`
-
-- Then use the `netlify deploy` for a deploy preview link or `netlify deploy --prod` to deploy to production
-
-Here are a few other ways you can deploy this template:
-
-- Use the Netlify CLI's create from template command `netlify sites:create-template hugo-quickstart` which will create a repo, Netlify project, and deploy it
-- If you want to utilize continuous deployment through GitHub webhooks, run the Netlify command `netlify init` to create a new project based on your repo or `netlify link` to connect your repo to an existing project
-
-## Styling
-
-We've added some modern styling to this template using Sass within an external stylesheet, this will allow you to easily remove our styling and add in your own.
-
-If you decide that you want to keep our styling you can review our style notes below.
-
-### Notes on Styling
-
-The variables below give you the ability to change the gradient colors of the blobs and are interpolated into the URL string of the background-img within the body.
-
-```css
-// Controls the blob blur gradient colors within the main tag's svg
---top-right-blur-1: #2ebc92;
---top-right-blur-2: #ecbb50;
---bttm-left-blur-1: #ff3e89;
---bttm-left-blur-2: #0095cc;
-```
-
-## Hugo + Netlify Resources
-
-Here are some resources to help you on your Hugo + Netlify coding fun!
-
-- [Hugo on Netlify Integration Page](https://ntl.fyi/3P9w1mr)
-
-Hope this template helps :) Happy coding 👩🏻‍💻!
+- [Hugo](https://gohugo.io/)
+- [Tailwind CSS v4.0](https://tailwindcss.com/)
+- [AutoPrefixer](https://autoprefixer.github.io/)
+- [Hugo Modules](https://gohugo.io/hugo-modules/) by [Gethugothemes](https://gethugothemes.com/hugo-modules)
+- [Markdown](https://markdownguide.org/)
+- [Prettier](https://prettier.io/)
+- [Jshint](https://jshint.com/)
+- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
+- [Github Actions](https://github.com/features/actions)
+- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
+- [AWS Amplify](https://aws.amazon.com/amplify/)
 
 ---
 
-## Testing
+## 🚀 Getting Started
 
-### Included Default Testing
+First you need to [clone](https://github.com/zeon-studio/hugoplate) or [download](https://github.com/zeon-studio/hugoplate/archive/refs/heads/main.zip) the template repository, and then let's get started with the following process:
 
-We’ve included some tooling that helps us maintain these templates. This template currently uses:
+### ⚙️ Prerequisites
 
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
-- [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
+To start using this template, you need to have some prerequisites installed on your machine.
 
-If your team is not interested in this tooling, you can remove them with ease!
+- [Hugo Extended v0.144+](https://gohugo.io/installation/)
+- [Node v22+](https://nodejs.org/en/download/)
+- [Go v1.24+](https://go.dev/doc/install)
 
-### Removing Renovate
+### 👉 Project Setup
 
-In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
-
-### Removing Cypress
-
-For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testing. This makes sure that we can validate that our templates are rendering and displaying as we’d expect. By default, we have Cypress not generate deploy links if our tests don’t pass. If you’d like to keep Cypress and still generate the deploy links, go into your `netlify.toml` and delete the plugin configuration lines:
-
-```diff
-[[plugins]]
-  package = "netlify-plugin-cypress"
--  [plugins.inputs.postBuild]
--    enable = true
--
--  [plugins.inputs]
--    enable = false 
-```
-
-If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:
+We build this custom script to make your project setup easier. It will create a new Hugo theme folder, and clone the Hugoplate theme into it. Then move the exampleSite folder into the root directory. So that you can start your Hugo server without going into the exampleSite folder. Use the following command to setup your project.
 
 ```bash
-npm uninstall -D netlify-plugin-cypress
+npm run project-setup
 ```
 
-And lastly if you’d like to remove Cypress entirely, delete the entire `cypress` folder and the `cypress.config.ts` file. Then remove the dependency using:
+### 👉 Install Dependencies
+
+Install all the dependencies using the following command.
 
 ```bash
-npm uninstall cypress
+npm install
 ```
+
+### 👉 Development Command
+
+Start the development server using the following command.
+
+```bash
+npm run dev
+```
+
+### 🎬 Still Confused? Watch a Quick Video
+
+https://github.com/zeon-studio/hugoplate/assets/58769763/c260c0ae-91be-42ce-b8db-aa7f11f777bd
+
+---
+
+## 📝 Customization
+
+This template has been designed with a lot of customization options in mind. You can customize almost anything you want, including:
+
+### 👉 Site Config
+
+You can change the site title, base URL, language, theme, plugins, and more from the `hugo.toml` file.
+
+### 👉 Site Params
+
+You can customize all the parameters from the `config/_default/params.toml` file. This includes the logo, favicon, search, SEO metadata, and more.
+
+### 👉 Colors and Fonts
+
+You can change the colors and fonts from the `data/theme.json` file. This includes the primary color, secondary color, font family, and font size.
+
+### 👉 Social Links
+
+You can change the social links from the `data/social.json` file. Add your social links here, and they will automatically be displayed on the site.
+
+---
+
+## 🛠 Advanced Usage
+
+We have added some custom scripts to make your life easier. You can use these scripts to help you with your development.
+
+### 👉 Update Theme
+
+If you want to update the theme, then you can use the following command. It will update the theme to the latest version.
+
+```bash
+npm run update-theme
+```
+
+> **Note:** This command will work after running `project-setup` script.
+
+### 👉 Update Modules
+
+We have added a lot of modules to this template. You can update all the modules using the following command.
+
+```bash
+npm run update-modules
+```
+
+### 👉 Remove Dark Mode
+
+If you want to remove dark mode from your project, you can use the following command to remove dark mode from your project.
+
+```bash
+npm run remove-darkmode
+```
+
+> **Note:** This command will work before running `project-setup` script. If you already run the `project-setup` command, then you have to run `npm run theme-setup` first, and then you can run this command. afterward, you can run `npm run project-setup` again.
+
+---
+
+## 🚀 Build And Deploy
+
+After you finish your development, you can build or deploy your project almost everywhere. Let's see the process:
+
+### 👉 Build Command
+
+To build your project locally, you can use the following command.
+
+```bash
+npm run build
+```
+
+### 👉 Deploy Site
+
+We have provided 5 different deploy platform configurations with this template, so you can deploy easily.
+
+- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
+- [Github Actions](https://github.com/features/actions)
+- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
+- [AWS Amplify](https://aws.amazon.com/amplify/)
+
+And if you want to Host some other hosting platforms. then you can build your project, and you will get a `public` folder. that you can copy and paste on your hosting platform.
+
+> **Note:** You must change the `baseURL` in the `hugo.toml` file. Otherwise, your site will not work properly.
+
+---
+
+## 🔒 Guide to Staying Compliant
+
+### 🐞 Reporting Issues
+
+We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/hugoplate/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/hugoplate/issues).
+
+### 📝 License
+
+Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
+
+**Code License:** Released under the [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+
+---
+
+## 🖼️ Showcase
+
+List of some projects people are building with **Hugoplate**!
+
+| [![Open Neuromorphic](https://tinyurl.com/hp7avtje)](https://open-neuromorphic.org/) | [![AI Models](https://tinyurl.com/mu4p7dhb)](https://aimodels.org/) | [![Hugobricks](https://tinyurl.com/4x3uwhm9)](https://www.hugobricks.preview.usecue.com/) | [![ONO LLC](https://tinyurl.com/2fbjzwzn)](https://ono.day/)
+|:---:|:---:|:---:|:---:|
+| **Open Neuromorphic** | **AI Models** | **Hugobricks** | **ONO LLC** |
+
+---
+
+## 💻 Need Customization?
+
+If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/estimate-project).
