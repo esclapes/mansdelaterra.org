@@ -28,7 +28,10 @@
           </div>
           <div class="col-12">
             {{ $originalImage := resources.Get .image }}
-            <a href="{{ $originalImage.RelPermalink }}">
+            <a
+              href="{{ $originalImage.RelPermalink }}"
+              onclick="shareImage(event, '{{ .title }}', '{{ $originalImage.RelPermalink }}')"
+            >
               {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto !max-w-[400px]" "DisplayXL" "800x" ) }}
             </a>
           </div>
