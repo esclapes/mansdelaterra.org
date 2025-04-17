@@ -4,8 +4,9 @@
   class="{{- if not site.Params.theme_switcher -}}
     {{- site.Params.theme_default -}}
   {{- end -}}"
-  lang="{{ site.LanguageCode | default `en-US` }}"
-  itemtype="http://schema.org/WebPage">
+  lang="{{ site.LanguageCode | default `ca` }}"
+  itemtype="http://schema.org/WebPage"
+>
   <head>
     <!-- head (don't cache it) -->
     {{ partial "essentials/head.html" . }}
