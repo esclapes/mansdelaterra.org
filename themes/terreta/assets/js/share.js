@@ -1,10 +1,8 @@
 async function shareImage(event, title, imageUrl) {
-  event.preventDefault();
-
   if (!navigator.share) {
-    window.location.href = imageUrl;
     return;
   }
+  event.preventDefault();
 
   try {
     const response = await fetch(imageUrl);
