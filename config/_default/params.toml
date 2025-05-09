@@ -64,7 +64,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 [metadata]
 keywords = ["Mans de la Terra", "Orba", "Mercat de Productors"]
 description = "Les Mans de la Terra a Orba - Mercat de Productors"
-image = "images/og-image.png"
+image = "images/cartel-ca.png"
 
 
 # site verifications
@@ -96,7 +96,7 @@ sidebar = ["categories", "tags"]
 # google map
 [google_map]
 enable = true
-map_api_key = "AIzaSyBT3iHaxPLVMpHIFPh3nHcQz9BzOHbeLz4"
+map_api_key = "{{ getenv 'GOOGLE_MAPS_API_KEY }}"
 map_latitude = "38.78215336062374"
 map_longitude = "-0.06904869183270153"
 map_marker = "images/marker.png"
