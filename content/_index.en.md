@@ -1,9 +1,10 @@
 ---
 # Banner
 banner:
-  title: "Market inauguration: <br/> May 3rd from 9:00 to 14:00"
-  content: "Come and join us on the first edition of this new weekly market in Orba. Local producers only. Food, gastronomy, crafts and wellbeing. Live music at 12:00."
-  image: "/images/cartel-inauguracion-en.png"
+  title: "Local producers' market in Orba"
+  subtitle: "Every saturday from 9:00 to 14:00"
+  content: "Come to the weekly market in Orba. Local producers only. Food, gastronomy, crafts and wellbeing. Live music at 12:00."
+  image: "/images/cartel-en.png"
   button:
     enable: true
     label: "How to get here"

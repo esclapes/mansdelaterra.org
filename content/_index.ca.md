@@ -1,9 +1,10 @@
 ---
 # Banner
 banner:
-  title: "Inauguració del mercat: <br/> 3 de maig de 9:00 a 14:00"
-  content: "Vine a la primera edició d'aquest nou mercat setmanal a Orba. Només productors locals. Alimentació, gastronomia, artesania i benestar. Música en directe a les 12:00."
-  image: "/images/cartel-inauguracion-ca.png"
+  title: "Mercat de productors locals a Orba"
+  subtitle: "Tots els dissabtes de 9:00 a 14:00"
+  content: "Vine al mercat setmanal a Orba. Només productors locals. Alimentació, gastronomia, artesania i benestar. Música en directe a les 12:00."
+  image: "/images/cartel-ca.png"
   button:
     enable: true
     label: "Com arribar"
