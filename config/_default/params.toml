@@ -64,7 +64,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 [metadata]
 keywords = ["Mans de la Terra", "Orba", "Mercat de Productors"]
 description = "Les Mans de la Terra a Orba - Mercat de Productors"
-image = "images/cartel-ca.png"
+image = "images/og-image.png"
 
 
 # site verifications
