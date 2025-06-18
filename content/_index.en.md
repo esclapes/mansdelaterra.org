@@ -2,7 +2,8 @@
 # Banner
 banner:
   title: "Local producers' market in Orba"
-  subtitle: "Every saturday from 9:00 to 14:00"
+  subtitle: "Every saturday from 18:00 to 23:00 (summer hours)"
+  # subtitle: "Every saturday from 9:00 to 14:00"
   content: "Come to the weekly market in Orba. Local producers only. Food, gastronomy, crafts and wellbeing. Live music at 12:00."
   image: "/images/cartel-noche-en.png"
   button:
