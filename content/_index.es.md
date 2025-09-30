@@ -2,10 +2,9 @@
 # Banner
 banner:
   title: "Mercado de productores locales en Orba"
-  subtitle: "Todos los sábados de 18:00 a 23:00 (horario de verano)"
-  # subtitle: "Todos los sábados de 9:00 a 14:00"
-  content: "Ven al mercado semanal en Orba. Solo productores locales. Alimentación, gastronomía, artesanía y bienestar. Música en directo a las 21:00."
-  image: "/images/cartel-noche-es.png"
+  subtitle: "Todos los sábados de 9:00 a 14:00"
+  content: "Ven al mercado semanal en Orba. Solo productores locales. Alimentación, gastronomía, artesanía y bienestar. Música en directo a las 12:00."
+  image: "/images/20251004-es.png"
   button:
     enable: true
     label: "Cómo llegar"
