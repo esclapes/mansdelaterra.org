@@ -4,7 +4,7 @@ banner:
   title: "Local producers' market in Orba"
   subtitle: "Every saturday from 9:00 to 14:00"
   content: "Come to the weekly market in Orba. Local producers only. Food, gastronomy, crafts and wellbeing. Live music at 12:00."
-  image: "/images/20251004-en.png"
+  image: "/images/cartel-general-en-2.png"
   button:
     enable: true
     label: "How to get here"

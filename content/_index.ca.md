@@ -4,7 +4,7 @@ banner:
   title: "Mercat de productors locals a Orba"
   subtitle: "Tots els dissabtes de 9:00 a 14:00"
   content: "Vine al mercat setmanal a Orba. Només productors locals. Alimentació, gastronomia, artesania i benestar. Música en directe a les 12:00."
-  image: "/images/20251004-ca.png"
+  image: "/images/cartel-general-ca-2.png"
   button:
     enable: true
     label: "Com arribar"
