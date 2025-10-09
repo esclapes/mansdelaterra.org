@@ -1,0 +1,11 @@
+# status bar
+# custom status bar for important announcements (supports notice and warning types)
+[status_bar]
+enable = true
+type = "warning" # available options: notice, warning
+message = "The October 11th, 2025 market has been **cancelled** due to rain" # leave empty to hide the status bar
+
+[metadata]
+keywords = ["Mans de la Terra", "Orba", "Farmers market"]
+description = "The Mans de la Terra in Orba - Local producers' market"
+image = "images/og-image.png"

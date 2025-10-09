@@ -59,13 +59,6 @@ enable = false
 expire_days = 7
 content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
 
-# status bar
-# custom status bar for important announcements (supports notice and warning types)
-[status_bar]
-enable = true
-type = "warning" # available options: notice, warning
-message = "El mercat de l'11 d'octubre de 2025 ha estat **cancel·lat** per pluja" # leave empty to hide the status bar
-
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
