@@ -37,6 +37,10 @@
 
     <!-- header (don't cache it) -->
     {{ partial "essentials/header.html" . }}
+
+    <!-- status bar -->
+    {{ partial "status-bar.html" . }}
+
     {{ partial "search-modal.html" (dict "Context" . ) }}
 
 

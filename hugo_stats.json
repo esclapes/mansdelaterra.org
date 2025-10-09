@@ -28,6 +28,7 @@
       "select",
       "source",
       "span",
+      "strong",
       "svg",
       "title",
       "ul"
@@ -139,6 +140,9 @@
       "sm:hidden",
       "social-icons",
       "space-x-1",
+      "status-bar",
+      "status-bar-content",
+      "status-bar-warning",
       "sticky",
       "system",
       "text-[12px]",

@@ -1,0 +1,11 @@
+{{ with site.Params.status_bar }}
+  {{ if and .enable .message }}
+    <div class="status-bar status-bar-{{ .type | default "notice" }}">
+      <div class="container">
+        <div class="status-bar-content">
+          {{ .message | markdownify }}
+        </div>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
