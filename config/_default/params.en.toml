@@ -1,7 +1,7 @@
 # status bar
 # custom status bar for important announcements (supports notice and warning types)
 [status_bar]
-enable = true
+enable = false
 type = "warning" # available options: notice, warning
 message = "The October 11th, 2025 market has been **cancelled** due to rain" # leave empty to hide the status bar
 
