@@ -1,11 +1,21 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
 
+  {{ $section := .CurrentSection }}
+  {{ $hasSiblings := gt (len $section.RegularPages) 1 }}
 
   <section class="section-sm">
     <div class="container">
-      <div class="row justify-center">
-        <div class="lg:col-10">
+      <div class="row gx-5{{ if not $hasSiblings }} justify-center{{ end }}">
+        {{ if $hasSiblings }}
+          <!-- sidebar -->
+          <div class="lg:col-4 order-last lg:order-first mb-8 lg:mb-0">
+            {{ partial "section-nav" (dict "Section" $section "Current" .) }}
+          </div>
+        {{ end }}
+
+        <!-- content -->
+        <div class="{{ if $hasSiblings }}lg:col-8{{ else }}lg:col-10{{ end }}">
           <div class="content">
             {{ .Content }}
           </div>

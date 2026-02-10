@@ -1,20 +1,31 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
 
+  {{ $hasChildren := gt (len .RegularPages) 0 }}
 
-  <section class="section">
+  <section class="section-sm">
     <div class="container">
-      <ul class="text-center">
-        {{ range .RegularPages }}
-          <li class="m-3">
-            <a
-              href="{{ .Permalink }}"
-              class="text-text-dark dark:text-darkmode-text-dark block text-xl">
-              {{ .Title }}
-            </a>
-          </li>
+      <div class="row gx-5{{ if not $hasChildren }} justify-center{{ end }}">
+        {{ if $hasChildren }}
+          <!-- sidebar -->
+          <div class="lg:col-4 order-last lg:order-first mb-8 lg:mb-0">
+            {{ partial "section-nav" (dict "Section" . "Current" .) }}
+          </div>
         {{ end }}
-      </ul>
+
+        <!-- content -->
+        <div class="{{ if $hasChildren }}lg:col-8{{ else }}lg:col-10{{ end }}">
+          {{ with .Content }}
+            <div class="content">
+              {{ . }}
+            </div>
+          {{ end }}
+
+          {{ if $hasChildren }}
+            {{/* Child page links are already in the sidebar */}}
+          {{ end }}
+        </div>
+      </div>
     </div>
   </section>
 {{ end }}

@@ -1,0 +1,24 @@
+{{- $section := .Section -}}
+{{- $current := .Current -}}
+<div class="mb-8">
+  <div class="bg-light dark:bg-darkmode-light rounded p-6">
+    <ul class="space-y-4">
+      <li>
+        <a
+          href="{{ $section.RelPermalink }}"
+          class="hover:text-primary dark:hover:text-darkmode-primary block{{ if eq $current.RelPermalink $section.RelPermalink }} font-bold text-primary dark:text-darkmode-primary{{ end }}">
+          {{ $section.Title }}
+        </a>
+      </li>
+      {{ range $section.RegularPages }}
+        <li>
+          <a
+            href="{{ .RelPermalink }}"
+            class="hover:text-primary dark:hover:text-darkmode-primary block{{ if eq $current.RelPermalink .RelPermalink }} font-bold text-primary dark:text-darkmode-primary{{ end }}">
+            {{ .Title }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
