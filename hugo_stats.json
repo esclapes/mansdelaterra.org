@@ -36,7 +36,13 @@
       "span",
       "strong",
       "svg",
+      "table",
+      "tbody",
+      "td",
+      "th",
+      "thead",
       "title",
+      "tr",
       "ul"
     ],
     "classes": [
@@ -233,8 +239,11 @@
       "compartir-recursos",
       "consejos-prácticos",
       "criterios-de-selección-de-productores-y-productos",
+      "cuotas",
       "cuándo-es-el-mercado",
+      "cómo-es-el-proceso",
       "cómo-funciona-la-parada",
+      "datos-del-productor",
       "datos-del-titular",
       "declaración",
       "del-clima",
@@ -252,6 +261,7 @@
       "información-obligatoria-de-los-productos-envasados",
       "información-obligatoria-de-los-productos-no-envasados",
       "los-14-alérgenos-de-declaración-obligatoria",
+      "mal-tiempo",
       "map",
       "montaje-de-invierno",
       "montaje-de-verano",
@@ -272,13 +282,17 @@
       "productos-elaborados-envasados",
       "productos-envasados-y-no-envasados",
       "productos-no-envasados-o-envasados-en-el-momento",
+      "protección-de-los-alimentos",
+      "quieres-formar-parte-del-mercado",
+      "quién-puede-venir-cada-sábado",
       "qué-documentación-necesitas",
       "qué-esperamos-unos-de-otros",
       "qué-puedes-vender",
       "sanidad",
       "separación-de-residuos",
       "show-button",
-      "sin-plásticos-de-un-solo-uso"
+      "sin-plásticos-de-un-solo-uso",
+      "vehículos"
     ]
   }
 }

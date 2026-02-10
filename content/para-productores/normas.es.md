@@ -18,7 +18,20 @@ Sábados de 10:00 a 15:00, en la plaza de Orba.
 
 - **Montaje:** a partir de las 9:00. Intenta estar listo para las 10:00.
 - **Desmontaje:** a partir de las 15:00. Deja tu espacio limpio y recogido.
-- Si un sábado no puedes venir, avisa con antelación para que podamos organizar el espacio.
+
+## ¿Quién puede venir cada sábado?
+
+Cada semana se comparte la lista de productores que participarán en el mercado. Solo puedes montar parada si estás en esa lista.
+
+Si un sábado no puedes venir, avísanos con la mayor antelación posible — idealmente antes del jueves — para que podamos ofrecer tu plaza a otro productor. Si no vienes repetidamente sin avisar, puede que tu plaza se reasigne.
+
+## Vehículos
+
+Los coches deben aparcarse en el parking detrás de la piscina. La calle de la plaza debe estar libre de vehículos antes de las 10:00, cuando abre el mercado.
+
+## Mal tiempo
+
+Si la previsión meteorológica hace que el mercado sea peligroso o inviable, podemos cancelar la jornada. Lo comunicaremos con toda la antelación que el pronóstico nos permita.
 
 ## ¿Cómo funciona la parada?
 

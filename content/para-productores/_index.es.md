@@ -14,6 +14,7 @@ No es un reglamento formal: es lo que hemos acordado entre todos para que el mer
 ### Categorías del mercado
 
 - **Productos de la tierra** — frutas, verduras, hortalizas, huevos, miel, plantas, flores
-- **Gastronomía** — conservas, panes, repostería, quesos, embutidos, aceites, bebidas artesanas
+- **Productos elaborados** — conservas, panes, repostería, quesos, embutidos, aceites
+- **Comida y bebida** — platos preparados, bebidas y otros productos para consumir en el mercado
 - **Artesanía** — cerámica, textil, jabones, cosmética natural, madera, cestería
 - **Bienestar** — plantas medicinales, aromaterapia, productos de cuidado natural

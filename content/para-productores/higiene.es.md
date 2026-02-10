@@ -43,10 +43,20 @@ Todos los puntos de venta con productos alimentarios deben tener información so
 
 Los 14 alérgenos son: cereales con gluten, crustáceos, huevos, pescado, cacahuetes, soja, leche (y lactosa), frutos de cáscara, apio, mostaza, sésamo, sulfitos, altramuces y moluscos.
 
+## Protección de los alimentos
+
+Las paradas que vendan productos alimentarios deben proteger la mercancía del acceso directo del público:
+
+- **Mampara de metacrilato obligatoria** — los productos expuestos deben estar detrás de una pantalla que impida que los clientes los toquen directamente. Como mínimo, la mampara debe cubrir hasta la altura de la boca de los compradores.
+- **No se manipulan alimentos con las manos desnudas** — usa guantes, pinzas o utensilios para servir.
+- **Agua disponible** — cada parada de alimentación debe tener agua para limpiarse las manos y los utensilios (una garrafa con grifo es suficiente), además de gel antiséptico.
+
+Si tienes dudas sobre los requisitos específicos para tu tipo de producto, la asociación puede facilitarte la normativa aplicable de la Consellería de Sanitat.
+
 ## Higiene personal y del puesto
 
-- Lávate las manos con frecuencia. Ten gel antiséptico disponible en tu parada.
-- Protege los productos expuestos del acceso directo del público (especialmente los elaborados).
-- Mantén los utensilios limpios y ten agua disponible para limpiarlos.
+- Lávate las manos con frecuencia.
+- Mantén los utensilios limpios.
+- Almacena los productos correctamente — nunca directamente en el suelo.
 
 Toda esta documentación debe estar siempre disponible en la parada para consulta si alguien la solicita (clientes, inspección, organización).
