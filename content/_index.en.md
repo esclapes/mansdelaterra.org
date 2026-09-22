@@ -2,9 +2,9 @@
 # Banner
 banner:
   title: "Local producers' market in Orba"
-  subtitle: "Every saturday from 9:00 to 14:00"
-  content: "Come to the weekly market in Orba. Local producers only. Food, gastronomy, crafts and wellbeing. Live music at 12:00."
-  image: "/images/cartel-general-en-2.png"
+  subtitle: "We are back on Saturday 3 October, from 10:00 to 15:00"
+  content: "Come to the weekly market in Orba, at the picnic area by the swimming pool. Local producers only. Food, gastronomy, crafts and wellbeing. Live music at 12:00."
+  image: "/images/cartel-volvemos-20261003.jpg"
   button:
     enable: true
     label: "How to get here"

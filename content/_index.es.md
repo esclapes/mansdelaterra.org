@@ -2,9 +2,9 @@
 # Banner
 banner:
   title: "Mercado de productores locales en Orba"
-  subtitle: "Todos los sábados de 9:00 a 14:00"
-  content: "Ven al mercado semanal en Orba. Solo productores locales. Alimentación, gastronomía, artesanía y bienestar. Música en directo a las 12:00."
-  image: "/images/cartel-general-es-2.png"
+  subtitle: "Volvemos el sábado 3 de octubre, de 10:00 a 15:00"
+  content: "Ven al mercado semanal en Orba, en el merendero de la piscina. Solo productores locales. Alimentación, gastronomía, artesanía y bienestar. Música en directo a las 12:00."
+  image: "/images/cartel-volvemos-20261003.jpg"
   button:
     enable: true
     label: "Cómo llegar"

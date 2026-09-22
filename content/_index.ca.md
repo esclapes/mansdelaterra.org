@@ -2,9 +2,9 @@
 # Banner
 banner:
   title: "Mercat de productors locals a Orba"
-  subtitle: "Tots els dissabtes de 9:00 a 14:00"
-  content: "Vine al mercat setmanal a Orba. Només productors locals. Alimentació, gastronomia, artesania i benestar. Música en directe a les 12:00."
-  image: "/images/cartel-general-ca-2.png"
+  subtitle: "Tornem dissabte 3 d'octubre, de 10:00 a 15:00"
+  content: "Vine al mercat setmanal a Orba, al berenador de la piscina. Només productors locals. Alimentació, gastronomia, artesania i benestar. Música en directe a les 12:00."
+  image: "/images/cartel-volvemos-20261003.jpg"
   button:
     enable: true
     label: "Com arribar"
