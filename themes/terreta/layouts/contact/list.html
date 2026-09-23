@@ -123,8 +123,11 @@
 
   {{ if site.Params.google_map.enable }}
     {{ $gmap:= resources.Get "plugins/maps/google-map.js" }}
-    <script defer src="{{ $gmap.RelPermalink }}"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.google_map.map_api_key }}&libraries=places"></script>
+    <script src="{{ $gmap.RelPermalink }}"></script>
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.google_map.map_api_key }}&libraries=places&loading=async&callback=initialize"
+    ></script>
   {{ end }}
 
 {{ end }}

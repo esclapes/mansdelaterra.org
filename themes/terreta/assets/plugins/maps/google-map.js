@@ -7,6 +7,9 @@ window.marker = null;
 function initialize() {
   var map,
     mapId = document.getElementById("map");
+  if (mapId == null) {
+    return;
+  }
   var latitude = mapId.getAttribute("data-latitude");
   var longitude = mapId.getAttribute("data-longitude");
   var mapMarker = mapId.getAttribute("data-marker");
@@ -159,26 +162,25 @@ function initialize() {
   // });
   // map.mapTypes.set("grey", mapType);
   // map.setMapTypeId("grey");
-  var marker_image = mapMarker;
-  var pinIcon = new google.maps.MarkerImage(
-    marker_image,
-    null,
-    null,
-    null,
-    new google.maps.Size(30, 50),
-  );
-  marker = new google.maps.Marker({
+  var markerOptions = {
     position: orba,
     map: map,
-    icon: pinIcon,
     title: mapMarkerName,
-  });
+  };
+  // Only pass an icon when one is actually configured. An empty icon has no
+  // url and no path, which throws InvalidValueError from setIcon.
+  if (mapMarker) {
+    markerOptions.icon = {
+      url: mapMarker,
+      scaledSize: new google.maps.Size(30, 50),
+    };
+  }
+  marker = new google.maps.Marker(markerOptions);
   google.maps.event.addListener(marker, "click", function () {
     const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`;
     window.open(googleMapsUrl, "_blank");
   });
 }
-var map = document.getElementById("map");
-if (map != null) {
-  google.maps.event.addDomListener(window, "load", initialize);
-}
+// Invoked by the Maps JS loader via &callback=initialize. Assigned
+// explicitly so the name survives minification.
+window.initialize = initialize;
